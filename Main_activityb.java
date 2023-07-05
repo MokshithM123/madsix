@@ -91,3 +91,8 @@ phones.getString(phones.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NU
  }
  }
 }
+
+
+AndroidManifest.xml
+
+ <uses-permission android:name="android.permission.READ_CONTACTS"/>
